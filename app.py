@@ -40,4 +40,4 @@ def posts():
     return render_template('posts.html', posts=posts)
 
 if __name__ == '__main__':
-    app.run(port=80)
+    app.run(debug=True, port=3000)
