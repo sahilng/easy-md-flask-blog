@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Easy Flask + Markdown Blog</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1><a href="/" style="color:#2d3e6e;">Easy Flask + Markdown Blog</a></h1>
+    
+    {% for post in posts %}
+        <p><a href="{{ url_for('post', post_path=post.path) }}">{{ post.title }}</a><br><i>{{post.date}}</i></p>
+    {% endfor %}
+
+
+    <h2><a href="/posts" style="color:rgb(70, 60, 177)">View all posts in one page</a></h2>
+
+
+</body>
+</html>

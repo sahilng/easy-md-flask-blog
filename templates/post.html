@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1><a href="/" style="color:#2d3e6e;">Easy Flask + Markdown Blog</a></h1>
+
+
+    <h1>{{post.title}}</h1>
+    <i>{{post.date}}</i>
+    <div>
+        {{ post.content|safe }}
+    </div>
+
+</body>
+</html>
