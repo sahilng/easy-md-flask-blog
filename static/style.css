@@ -1,27 +1,8 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    padding: 20px;
-    margin: 0;
-    color: #333;
-  }
-  
-  /* Center align all text */
-  body {
-    text-align: center;
-  }
-  
-  /* Style for all headings to make them stand out */
-  h1, h2 {
-    color: #333;
-    margin: 0.5em 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  font-family: Arial;
+  text-align: center;
+}
 
-  a:hover, a:active, a:visited {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
